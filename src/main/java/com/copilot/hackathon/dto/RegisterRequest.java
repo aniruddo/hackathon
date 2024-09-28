@@ -1,5 +1,6 @@
 package com.copilot.hackathon.dto;
 
+import com.copilot.hackathon.entity.Role;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -10,5 +11,5 @@ import java.util.Set;
 public class RegisterRequest {
     private String email;
     private String password;
-    private Set<String> roles;
+    private Set<Role> roles;
 }

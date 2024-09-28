@@ -1,8 +1,8 @@
 package com.copilot.hackathon.entity;
 
 public enum RoleType {
-    PROPOSAL_COORDINATOR("ROLE_COORDINATOR"),
-    PROPOSAL_CONTRIBUTOR("ROLE_CONTRIBUTOR");
+    PROPOSAL_COORDINATOR("PROPOSAL_COORDINATOR"),
+    PROPOSAL_CONTRIBUTOR("PROPOSAL_CONTRIBUTOR");
 
     private String value;
 

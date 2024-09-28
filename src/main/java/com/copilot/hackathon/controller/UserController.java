@@ -21,4 +21,9 @@ public class UserController {
     public ResponseEntity<Optional<User>> userProfile() {
         return ResponseEntity.ok(userService.getUser());
     }
+
+    @GetMapping("/role")
+    public ResponseEntity<?> userRole() {
+        return ResponseEntity.ok(userService.getRole());
+    }
 }

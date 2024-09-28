@@ -18,6 +18,4 @@ public class Role extends BaseModel{
     @Column(name ="role_name", unique = true)
     private RoleType role;
 
-    @Column(name = "description")
-    private String description;
 }
